@@ -4,7 +4,7 @@ public class UserVerification{
         Scanner input = new Scanner(System.in);
 
        String name = "samuel";
-       int password = 4321;
+       int passcode = 4321;
 
        System.out.println("-------------LOG IN-----------");
 
@@ -12,9 +12,9 @@ public class UserVerification{
         String userName = input.nextLine();
     
        System.out.print("Enter Password to Log: ");
-        int userPassword = input.nextInt();
+        int userPasscode = input.nextInt();
 
-         if(userPassword == password && userName.equals(name)){
+         if(userPasscode == passcode && userName.equals(name)){
                 System.out.println("Log in Successful.........");
          }else{
              System.out.println("Log in Failed.....");  
