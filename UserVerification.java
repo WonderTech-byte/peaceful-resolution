@@ -14,7 +14,7 @@ public class UserVerification{
        System.out.print("Enter Password to Log: ");
         int userPassword = input.nextInt();
 
-         if(userPassword == password && name.equals(name)){
+         if(userPassword == password && userName.equals(name)){
                 System.out.println("Log in Successful.........");
          }else{
              System.out.println("Log in Failed.....");  
